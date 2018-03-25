@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Salão Mão de Ouro | Brooklin Paulista</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
+
+    <link rel="icon" href="img/logo_cortado_transparente.png" />
+
+    <!-- Custom styles for this template -->
+    <link href="css/new-age.css" rel="stylesheet">
+
+  </head>
+
+  <body ng-app="services" ng-controller="MoreSee" id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#page-top">Inicio</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#jobs">Serviços</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#mark-hour">Marca horário</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contatos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="masthead">
+      <div class="container h-100">
+        <div class="row h-100">
+          <div class="col-lg-12 my-auto">
+            <div class="first-text header-content mx-auto jumbotron text-center">
+              <h1 class="text-dark mb-5">Mão de ouro é uns dos melhores salões de beleza no bairro do Brooklin Paulista, venha conferir nossos serviços, você não irá ser arrepender!</h1>
+              <a href="#jobs" class="btn btn-dark btn-outline btn-xl js-scroll-trigger">Conheça nossos serviços!</a>
+            </div>
+          </div>
+          <div class="col-lg-5 my-auto">
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="features" id="jobs">
+      <div class="container">
+        <div class="section-heading text-center">
+          <h2>Alguns dos nossos serviços</h2>
+          <p class="text-muted">Confira abaixo!</p>
+          <hr>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 my-auto">
+            <div class="container-fluid">
+              <div class="row">
+                  <div class="col-lg-4">
+                      <div class="feature-item">
+                        <img style="height:8rem; width:10rem" class="image-jobs rounded-circle" src="img/cabelo.jpg">
+                        <h3>Cabelo</h3>
+                        <button ng-click="vejaMais1()" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+                            Veja mais
+                        </button>
+                      </div>
+                    </div>
+                <div class="col-lg-4">
+                  <div class="feature-item">
+                      <img style="height:8rem; width:10rem" class="image-jobs rounded-circle" src="img/manicure.jpg">
+                      <h3>Manicure</h3>
+                      <button ng-click="vejaMais2()" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+                          Veja mais
+                      </button>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="feature-item">
+                      <img style="height:8rem; width:10rem" class="image-jobs rounded-circle" src="img/estetica.jpg">
+                      <h3>Estética</h3>
+                      <button ng-click="vejaMais3()" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+                          Veja mais
+                      </button>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                  <div class="col-lg-6">
+                      <div class="feature-item">
+                          <img style="height:8rem; width:10rem" class="image-jobs rounded-circle" src="img/micropigmentacao.jpg">
+                          <h3>Micropigmentação</h3>
+                          <button ng-click="vejaMais4()" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+                              Veja mais
+                          </button>
+                      </div>
+                    </div>
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                      <img style="height:8rem; width:10rem" class="image-jobs rounded-circle" src="img/maquiagem.jpg">
+                      <h3>Maquiagem</h3>
+                      <button ng-click="vejaMais5()" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+                          Veja mais
+                      </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="mark-hour">
+      <div class="cta-content">
+        <div class="container">
+          <h2>Talvez não seja hora de você marca seu horário?</h2>
+          <a href="whatsapp://send?phone=+5511983279599&abid=12354&text=Olá Rita, gostaria de marca um horário com você!" class="btn btn-outline btn-xl js-scroll-trigger">Marque agora pelo celular!<br> Clique aqui</a>
+        </div>
+      </div>
+      <div class="overlay"></div>
+    </section>
+
+    <section class="contact bg-primary" id="contact">
+      <div class="container">
+        <h2>Nós
+          <i class="fa fa-heart"></i>
+          adoramos novos amigos!</h2>
+        <ul class="list-inline list-social">
+          <li class="list-inline-item rounded-circle social-facebook">
+            <a href="https://www.facebook.com/salaomaodeouro/">
+              <i class="fa fa-facebook"></i>
+            </a>
+          </li>
+          <li class="list-inline-item rounded-circle bg-danger">
+            <a href="https://www.google.com.br/search?tbm=lcl&ei=iyO4WveEAsidwASl06DIBw&q=M%C3%A3o+de+Ouro&oq=M%C3%A3o+de+Ouro&gs_l=psy-ab.3..0j0i22i30k1l9.3829.5729.0.6581.11.11.0.0.0.0.128.1105.5j6.11.0....0...1c.1.64.psy-ab..0.11.1104...0i67k1j0i131k1.0.JMj9cMvA938#rlfi=hd:;si:;mv:!1m3!1d82252.33082514281!2d-46.77632915!3d-23.61655035!2m3!1f0!2f0!3f0!3m2!1i522!2i270!4f13.1;tbs:lrf:!2m1!1e2!2m1!1e3!2m4!1e17!4m2!17m1!1e2!3sIAE,lf:1,lf_ui:2">
+              <i class="fa fa-google"></i>
+            </a>
+          <li class="whatsapp list-inline-item rounded-circle bg-success">
+              <a href="whatsapp://send?phone=+5511983279599&abid=12354&text=Olá Rita, gostaria de marca um horário com você!">
+                <i class="fa fa-whatsapp"></i>
+              </a>
+          </li>
+          <li class="whatsapp list-inline-item rounded-circle bg-secondary">
+              <a href="mailto:rita.cassia.s09@gmail.com">
+                <i class="fa fa-envelope"></i>
+              </a>
+          </li>
+          <li class="whatsapp list-inline-item rounded-circle bg-secondary">
+              <a href="tel:1132949062">
+                <i class="fa fa-phone"></i>
+              </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; Mão de Ouro 2018. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+
+    <!-- Inicializacao do Angular e Angular-Router -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.js"></script>
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <script src="js/new-age.min.js"></script>
+
+    <script src="js/app.js"></script>
+
+    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Serviços</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <ul class="list-group list-group-flush" ng-repeat="obj in listaVejaMais">
+                    <li class="list-group-item">{{obj.title}}<br>{{obj.text}}</li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Ok</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </body>
+
+</html>

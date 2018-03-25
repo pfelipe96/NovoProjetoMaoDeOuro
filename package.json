@@ -1,0 +1,14 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Site para o salão de beleza mão de ouro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paulo Felipe Oliveira de Souza",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
