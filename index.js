@@ -35,7 +35,7 @@ app.get('/*', function (req, res) {
 });
 
 // Chamar o servidor
-server.listen(3000, '192.168.100.127');
+server.listen(8080);
 
 server.on('listening', function() {
     console.log('Express server started on port %s at %s', server.address().port, server.address().address);
